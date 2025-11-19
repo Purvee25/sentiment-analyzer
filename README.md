@@ -15,3 +15,6 @@ sa = SentimentAnalyzer()
 result = sa.analyze("This product is amazing!")
 print(result)  # {'positive': 0.85, 'negative': 0.05, 'neutral': 0.10}
 ```
+
+## API
+Run `python app.py` to start the REST API on port 5000.
